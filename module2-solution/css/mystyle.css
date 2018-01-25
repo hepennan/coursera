@@ -13,7 +13,7 @@ h1 {
   font-size: 1.75em;
 }
 
-p.h {
+p.titleregion {
   float: right;
   text-align: center;
   width: 30%;
@@ -23,32 +23,29 @@ p.h {
   border: solid 1px black;
 }
 
-
-
-p.t {
-/*  width: 90%;*/
-  /*margin-right: auto;*/
-  margin-left: 10px;
-  color: white;
+p.textregion {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
   clear: right;
 }
 
-#beef {
-  background-color: red;
+#chicken {
+  background-color: rgb(255, 128, 255);
 }
 
-
-#pork {
-  background-color: yellow;
+#beef {
+  background-color: rgb(255, 128, 155);
+  color: white;
 }
 
 #sushi {
-  background-color: green;
+  background-color: rgb(255, 128, 55);
 }
 
 .dishtype {
   border: 1px solid black;
-  background-color: gray;
+  background-color: rgb(204, 204, 204);
 
 }
 
